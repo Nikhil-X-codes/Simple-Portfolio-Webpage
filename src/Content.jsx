@@ -95,7 +95,7 @@ export const HeroSection = () => {
 export const Projects = () => {
   const projects = [
     { id: 1, image: '/healthcart.jpg', title: 'Healthcart', tech: ['HTML', 'CSS', 'JavaScript'], github: 'https://github.com/Nikhil-X-codes/Healthcart', live: 'https://nikhil-x-codes.github.io/Healthcart/' },
-    { id: 2, image: '/portfilio.jpg', title: 'Personal Portfolio', tech: ['HTML', 'CSS', 'JavaScript', 'React'], github: 'https://github.com/Nikhil-X-codes/Personal-Portfolio-Webpage', live: 'https://rococo-zuccutto-68a605.netlify.app/' },
+    { id: 2, image: '/portfilio.jpg', title: 'Personal Portfolio', tech: ['HTML', 'CSS', 'JavaScript', 'React'], github: 'https://github.com/Nikhil-X-codes/Simple-Portfolio-Webpage', live: 'https://magnificent-blini-c4d950.netlify.app/' },
     { id: 3, image: '/fitgym.png', title: 'FitGym Life', tech: ['HTML', 'CSS'], github: 'https://github.com/Nikhil-X-codes/FitLife-Gym', live: 'https://nikhil-x-codes.github.io/FitLife-Gym/' },
   ];
 
@@ -158,7 +158,7 @@ export const About = () => {
           </div>
           <ul className="info-list space-y-2">
             <li><strong>B.Tech, IIIT Sonepat</strong> | IT | 2023-27</li>
-            <li><strong>Class 12, Shiv Jyoti International School</strong> | 2023 | Score: 80%</li>
+            <li><strong>Class 12, Shiv Jyoti International School</strong> | 2023 | Score: 78%</li>
             <li><strong>Class 10, Shiv Jyoti International School</strong> | 2021 | Score: 82%</li>
           </ul>
         </motion.div>
@@ -172,7 +172,7 @@ export const About = () => {
             <h2 className="card-title text-xl font-semibold">Skills</h2>
           </div>
           <div className="skills flex flex-wrap gap-2">
-            {["C", "C++", "HTML/CSS", "MySQL", "MongoDB", "Java", "JavaScript", "React"].map((skill, index) => (
+            {["C", "C++", "HTML/CSS", "MySQL", "MongoDB", "Java", "JavaScript", "React","Node","express","Git & Github"].map((skill, index) => (
               <span key={index} className="skill bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">{skill}</span>
             ))}
           </div>
